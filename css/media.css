@@ -1,0 +1,541 @@
+/* strad resposive */
+@media(max-width:576px){
+    header{
+        min-height: 2000px;
+    }
+    .header-top{
+        width: 100%;
+    }
+    .nav-list{
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        background: rgb(80, 119, 204);
+        height: 500px;
+        z-index: 2;
+        
+    }
+    ul li{
+        display: block;
+        padding: 20px;
+       text-align: center;
+    }
+    ul li a{
+        color: #fff;
+    }
+    .toggle span {
+        display: block;
+    }
+    .header-top:hover .nav-list{
+        display: block;
+    }
+    .col-header{
+        flex-basis: 100%;
+        min-width: 300px;
+    }
+    .header-prag,.header-img{
+        width: 300px !important;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .header-img img{
+        width: 100%;
+    }
+    .bottom span{
+        margin-top: 20px !important;
+    }
+    .about-parg,.about-img{
+        width: 300px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .col-about{
+        flex-basis: 100%;
+        min-width: 300px;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    .prat1-prag,.prat1-img{
+        width: 300px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .col-service{
+        flex-basis: 100%;
+        min-width: 300px;
+    }
+    .prat1-img img{
+        width: 100%;
+    }
+    .col-imgs{
+        flex-basis: 100%;
+        min-width: 300px;
+    }
+    .video-div{
+        width: 300px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .video-div video{
+        width: 100%;
+    }
+    .col-video{
+        flex-basis: 100%;
+        min-width: 300px;
+    }
+    .stat-one{
+        width: 300px;
+        margin: auto;
+        margin-top: 20px;
+       
+    }
+    .col-stats{
+        flex-basis: 100%;
+        min-width: 300px;
+    }
+    .sub{
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    }
+    .sub input{
+        width: 100%;
+        height: 40px;
+        background: #fff;
+        border: none;
+        padding: 10px;
+        text-transform: capitalize;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .card{
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        margin-top: 20px;
+        border: 1px solid #535c68;
+        padding: 10px;
+       position: relative;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .col-card{
+        flex-basis:100%;
+        min-width: 300px;
+    }
+    .team1{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .ask-one{
+        width: 300px;
+        height: 200px;
+        /* padding: 20px; */
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .col-contact{
+        flex-basis: 100%;
+        min-width: 300px;
+    }
+    .form-img,.forms{
+        width: 300px;
+        margin: auto;
+    }
+    .col-form{
+        flex-basis: 100%;
+        min-width: 300px;
+    }
+    .form-img img{
+        width: 100%;
+    }
+    .input-group input,textarea{
+        width: 100%;
+    }
+
+    footer{
+        width: 100%;
+        font-size: 12px;
+    }
+    .actvity-img{
+        width: 300px;
+        margin: 10px;
+        position: relative;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .col-activty{
+        flex-basis: 100%;
+        min-width: 300px;
+    }
+    .actvity-img img{
+        width: 100%;
+        margin: auto;
+       
+    }
+}
+@media(min-width:576px) and (max-width:767.98px){
+   
+    .header-top{
+        width: 100%;
+    }
+    .nav-list{
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        background: rgb(80, 119, 204);
+        height: 500px;
+        z-index: 2;
+        
+    }
+    ul li{
+        display: block;
+        padding: 20px;
+       text-align: center;
+    }
+    ul li a{
+        color: #fff;
+    }
+    .toggle span {
+        display: block;
+    }
+    .header-top:hover .nav-list{
+        display: block;
+    }
+    .col-header{
+        flex-basis: 100%;
+        min-width: 500px;
+    }
+    .header-prag,.header-img{
+        width: 500px !important;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .header-img img{
+        width: 100%;
+    }
+    .prat1-prag,.prat1-img{
+        width: 500px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .col-service{
+        flex-basis: 100%;
+        min-width: 500px;
+    }
+    .prat1-img img{
+        width: 100%;
+    }
+    .p-img{
+        width: 250px;
+    }
+    .col-imgs{
+        flex-basis: 50%;
+        min-width: 250px;
+    }
+    .p-img img{
+        width: 100%;
+    }
+    .video-div{
+        width: 500px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .video-div video{
+        width: 100%;
+    }
+    .col-video{
+        flex-basis: 100%;
+        min-width: 500px;
+    }
+    .card{
+        width: 500px;
+        height: 250px;
+        text-align: center;
+        margin-top: 20px;
+        border: 1px solid #535c68;
+        padding: 10px;
+       position: relative;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .col-card{
+        flex-basis:100%;
+        min-width: 300px;
+    }
+    .team1{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .ask-one{
+        width: 250px;
+        height: 200px;
+        /* padding: 20px; */
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .col-contact{
+        flex-basis: 50%;
+        min-width: 250px;
+    }
+    .actvity-img{
+        width: 500px;
+        margin: 10px;
+        position: relative;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .col-activty{
+        flex-basis: 100%;
+        min-width: 500px;
+    }
+    .actvity-img img{
+        width: 100%;
+        margin: auto;
+       
+    }
+    header{
+        min-height: 2000px !important;
+    }
+  
+}
+@media(min-width:768px) and (max-width:991.98px){
+  
+    .col-header{
+        flex-basis: 100%;
+        min-width: 500px;
+    }
+    .header-prag,.header-img{
+        width: 500px !important;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .header-img img{
+        width: 100%;
+    }
+    .card{
+        width: 300px;
+        height: 250px;
+        text-align: center;
+        margin-top: 20px;
+        border: 1px solid #535c68;
+        padding: 10px;
+       position: relative;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .team1{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .stat-one{
+        width: 300px;
+        margin: auto;
+        margin-top: 20px;
+       
+    }
+    .col-stats{
+        flex-basis: 50%;
+        min-width: 300px;
+    }
+    .actvity-img{
+        width: 300px;
+        margin: 10px;
+        position: relative;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .col-activty{
+        flex-basis: 50%;
+        min-width: 300px;
+    }
+    .actvity-img img{
+        width: 100%;
+        margin: auto;
+       
+    }
+    header{
+        min-height: 2000px;
+    }
+}
+@media(min-width:992px) and (max-width:1199.98px){
+    .col-header{
+        flex-basis: 50%;
+        min-width: 400px;
+    }
+    .header-prag,.header-img{
+        width: 400px !important;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .header-img img{
+        width: 100%;
+    }
+    .prat1-prag,.prat1-img{
+        width: 400px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .col-service{
+        flex-basis: 50%;
+        min-width: 400px;
+    }
+    .prat1-img img{
+        width: 100%;
+    }
+    .about-parg,.about-img{
+        width: 400px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .col-about{
+        flex-basis: 50%;
+        min-width: 400px;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    .video-div{
+        width: 400px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .video-div video{
+        width: 100%;
+    }
+    .col-video{
+        flex-basis: 50%;
+        min-width: 400px;
+    }
+    
+    .card{
+        width: 400px;
+        height: 250px;
+        text-align: center;
+        margin-top: 20px;
+        border: 1px solid #535c68;
+        padding: 10px;
+       position: relative;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .col-card{
+        flex-basis:50%;
+        min-width: 400px;
+    }
+    .team1{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .ask-one{
+        width: 250px;
+        height: 200px;
+        /* padding: 20px; */
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .col-contact{
+        flex-basis: 33.33%;
+        min-width: 250px;
+    }
+    .form-img,.forms{
+        width: 400px;
+        margin: auto;
+    }
+    .col-form{
+        flex-basis: 50%;
+        min-width: 400px;
+    }
+    .form-img img{
+        width: 100%;
+    }
+    .actvity-img{
+        width: 400px;
+        margin: 10px;
+        position: relative;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .col-activty{
+        flex-basis: 50%;
+        min-width: 400px;
+    }
+    .actvity-img img{
+        width: 100%;
+        margin: auto;
+       
+    }
+}
+@media(min-width:1200px){
+    .col-header{
+        flex-basis: 50%;
+        min-width: 500px;
+    }
+    .header-prag,.header-img{
+        width: 500px !important;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .header-img img{
+        width: 100%;
+    }
+    .about-parg,.about-img{
+        width: 450px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .col-about{
+        flex-basis: 50%;
+        min-width: 450px;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    .prat1-prag,.prat1-img{
+        width: 450px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .col-service{
+        flex-basis: 50%;
+        min-width: 450px;
+    }
+    .prat1-img img{
+        width: 100%;
+    }
+    .actvity-img{
+        width: 300px;
+        margin: 10px;
+        position: relative;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .col-activty{
+        flex-basis: 33.33%;
+        min-width: 300px;
+    }
+    .actvity-img img{
+        width: 100%;
+        margin: auto;
+       
+    }
+}

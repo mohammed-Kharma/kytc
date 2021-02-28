@@ -1,0 +1,705 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+}
+body,html{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.all-page{
+    width: 100%;
+}
+/* strad header */
+header{
+    width: 100%;
+   min-height:1200px;
+    position: relative;
+  
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+/* strad header-top */
+.header-top{
+    width: 100%;
+    height: 100px;
+    background-color: #54a0ff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+ul li{
+    display: inline-block;
+    padding: 0 20px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+ul li a{
+    color: #fff;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+.toggle span{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+.logo .icon{
+    font-size: 30px;
+    color: #f4f2f6;
+}
+.logo .lable{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+/* end header-top */
+/* strad header-content */
+.header-content{
+    width: 100%;
+    height: calc(100vh - 100px);
+    margin-top: 10px !important;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.col-header{
+    flex-basis: 50%;
+    min-width: 500px;
+}
+.header-prag,.header-img{
+    width: 500px !important;
+    margin: auto;
+    margin-top: 30px;
+}
+.header-img img{
+    width: 100%;
+}
+.header-prag h2{
+    color: #54a0ff;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+}
+.header-prag p{
+    margin-top: 20px;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+.btn{
+    background-color: #2e86de;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+button:hover{
+    cursor: pointer;
+}
+/* end header */
+/* strad main */
+/* strat about */
+.about{
+    width: 100%;
+    min-height: 400px;
+    padding: 20px;
+    background: #dff9fb;
+    
+}
+.all-head {
+    text-align: center;
+}
+.all-head h2{
+    font-family:OpenSans ;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+@font-face{
+    src: url(../font/OpenSans-SemiBold.ttf);
+    font-family:OpenSans ;
+}
+.all-head .ciycle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #535c68;
+    margin: 15px auto;
+    position: relative;
+}
+.all-head .ciycle::after{
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 18px;
+    width: 130px;
+    height: 2px;
+    background: #555;
+}
+.all-head .ciycle::before{
+    content: "";
+    position: absolute;
+    top: 7px;
+    right: 18px;
+    width: 130px;
+    height: 2px;
+    background: #555;
+}
+.all-head p{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* strad about */
+.about{
+    margin-top: 20px;
+    width: 100%;
+}
+.about-parg,.about-img{
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+.col-about{
+    flex-basis: 50%;
+    min-width: 500px;
+}
+.about-img img{
+    width: 100%;
+}
+.about .row{
+    margin-top: 30px;
+}
+.about-parg h2{
+    font-family:OpenSans ;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+    color: #535c68;
+    margin-bottom: 10px;
+}
+.about-parg p{
+    margin-top: 15px;
+    line-height: 1.5;
+    color: #555;
+}
+/* end about */
+/* strat service */
+.service{
+    width: 100%;
+    min-height: 400px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.prat1-prag,.prat1-img{
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+.col-service{
+    flex-basis: 50%;
+    min-width: 500px;
+}
+.prat1-img img{
+    width: 100%;
+}
+.blue{
+    background: #74b9ff !important;
+}
+.green{
+    background: #1bec7d !important;
+}
+.green2{
+    background: #55efc4 !important;
+}
+.prat1-prag h2{
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    word-spacing: 2px;
+}
+.prat1-prag p{
+    line-height: 1.5;
+    color: #444;
+}
+/* end service */
+/* strad  protofilo */
+.protofilo{
+    width: 100%;
+    min-height: 400px;
+    padding: 20px;
+    margin-top: 30px;
+    background: #dff9fb;
+}
+.p-img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.p-img::after{
+    content: "KYTC";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(to left,#498fe5,#72c7d8);
+    opacity: 0;
+    transition: all 2s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+}
+.p-img:hover::after{
+    opacity: 0.6;
+    width: 100%;
+}
+.p-img img{
+    width: 100%;
+    height: 100%;
+}
+.rows{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-top: 50px;
+}
+.col-imgs{
+    flex-basis: 33.33%;
+    min-width: 300px;
+}
+/* end protofilo */
+/* strad  video */
+.video{
+    width: 100%;
+    min-height: 300px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.video-div{
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+.video-div video{
+    width: 100%;
+}
+.col-video{
+    flex-basis: 50%;
+    min-width: 500px;
+}
+/* end video */
+/* strad Statistics */
+.Statistics{
+    width: 100%;
+    min-height: 200px;
+    padding: 20px;
+    margin-top: 30px;
+    background: #dff9fb;
+}
+.stat-one{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+}
+.col-stats{
+    flex-basis: 33.33%;
+    min-width: 300px;
+}
+.stat-one span{
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: #535c68;
+    
+}
+.stat-one h4{
+    font-family: sans-serif;
+    margin-top: 10px;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+    color: #6c757d;
+}
+.stat-one p{
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.stat-one button{
+    background: #206bcf;
+}
+.counter::after{
+    content: "";
+    font-size: 25px;
+    animation:counters 2s linear infinite alternate 1s ;
+}
+@keyframes counters{
+    0%,100%{
+        content: "";
+    }
+  10%{
+    content: "100";
+  }
+  20%{
+    content: "200";
+  }
+  30%{
+    content: "300";
+  }
+  40%{
+    content: "400";
+  }
+  50%{
+    content: "500";
+  }
+  60%{
+    content: "600";
+  }
+  70%{
+    content: "700";
+  }
+  80%{
+    content: "800";
+  }
+  90%{
+    content: "900";
+  }
+   
+}
+/* end Statistics */
+/* strad subscribe */
+.subscribe{
+    width: 100%;
+    min-height: 300px;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)) ,url(../img/about.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top:50px ;
+}
+.sub{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.subscribe .all-head h2{
+    color: #fff;
+    font-weight: bold;
+}
+.subscribe .all-head p{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.sub input{
+    width: 80%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    padding: 10px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub button{
+    width: 160px;
+    height: 40px;
+    border: none;
+    background: #ff2244;
+    margin-top: 15px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+    transition: all 1s linear;
+}
+.sub button:hover{
+    background: #000;
+}
+/* end subscribe */
+/* strad activty */
+.activty{
+    width: 100%;
+    min-height: 300px;
+    padding: 20px;
+    background: #eee;
+}
+.actvity-img{
+    width: 400px;
+    margin: 10px;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.col-activty{
+    flex-basis: 33.33%;
+    min-width: 400px;
+}
+.actvity-img img{
+    width: 100%;
+    margin: auto;
+   
+}
+.actvity-img::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#111,transparent);
+    transition: all 2s;
+}
+.actvity-img:hover::after{
+    width: 0%;
+}
+/* end activty */
+/*  strad  Testimonials */
+.Testimonials{
+    width: 100%;
+    min-height: 500px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.Testimonials .row{
+    margin-top: 50px;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid #535c68;
+    padding: 10px;
+    position: relative;
+    margin: auto;
+    
+}
+.col-card{
+    flex-basis: 33.33%;
+    min-width: 300px;
+}
+.card img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.card h3{
+    margin-top: 30px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+}
+.card h5{
+    color: #535c68;
+    font-family: sans-serif;
+    word-spacing: 2px;
+}
+.card p{
+    color: #555;
+    line-height: 1.5;
+    margin-top: 12px;
+}
+.icon span{
+    margin: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 1s;
+} 
+.icon span:nth-child(1){
+    color: #0984e3;
+}
+.icon span:nth-child(2){
+    color: #48dbfb;
+}
+.icon span:nth-child(3){
+    color:#10ac84;
+}
+.icon span:nth-child(4){
+    color:#db1450;
+}
+.icon span:hover{
+    transform: translateY(10px);
+}
+/* end Testimonials */
+/* strad graduate */
+.graduate{
+    width: 100%;
+    min-height: 300px;
+    background: #dff9fb;
+    padding: 20px;
+    margin-top: 30px;
+}
+.team1{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.team1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    transform: rotate(24deg);
+   
+}
+.team1 h3{
+    color: #535c68;
+    font-family: sans-serif;
+    word-spacing: 1.5px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.team1 p{
+    color: #555;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.team1 span{
+    color: #54a0ff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* end graduate */
+/* strad  contact */
+.contact{
+    width: 100%;
+    min-height: 400px;
+    /* padding: 20px; */
+    margin-top: 10px; 
+}
+.ask-one{
+    width: 300px;
+    height: 200px;
+    /* padding: 20px; */
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.col-contact{
+    flex-basis: 33.33%;
+    min-width: 300px;
+}
+.ask-one span{
+    font-size: 30px;
+    color: #535c68;
+}
+article .span1{
+    color: #10ac84;
+}
+article .span2{
+    color: #2e86de;
+}
+article .span3{
+    color: #ee5253;
+}
+.ask-one h3{
+    font-family: sans-serif;
+    margin-top: 10px;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+    margin: 10px auto;
+}
+.ask-one p{
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 10px;
+}
+.ask-one a{
+    color: #6c757d;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin: 10px auto;
+    color: blue;
+    text-decoration: underline;
+    
+}
+.ask-one a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.form-img,.forms{
+    width: 500px;
+    margin: auto;
+}
+.col-form{
+    flex-basis: 50%;
+    min-width: 500px;
+}
+.form-img img{
+    width: 100%;
+}
+.input-group input,textarea{
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border:  2px solid #54a0ff;
+    margin: 15px;
+    padding: 10px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.input-group  textarea{
+    height: 80px;
+}
+.input-button{
+    text-align: center;
+}
+.google-map{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+
+/* end contact */
+/* end main */
+/* strad footer */
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dff9fb;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+/* end footer */
